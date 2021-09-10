@@ -1,0 +1,4 @@
+create database minitienda.db
+create table compras(Idcompras int(10),preciomay float(10),marca text(10),modelo text(10),fechacompra char(10),fechacad int(10),codigobarras int(10),idprovedor int(10),cantidad int(10),total int(10));
+insert into compras(Idcompras,preciomay,marca,modelo,fechacompra,fechacad,codigobarras,idprovedor,cantidad,total)values(1941508,120,"sabritas","fuego",10/04/2008, 10/04/2010, 9909101, 1941518, 50, 1450);
+select*from compras;
